@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../image/img.jpg");
+    background-position: center;
+}
+.alltext{
+    margin: 20px;
+    padding: 20px;
+}
+.rowonetext{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 3px;
+    border-radius: 20px;
+    border: 5px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px black;
+}
+p{
+    margin: 2px 20px;
+    font-size: 20px;
+    width: 88%;
+    
+}
+ 
+.like{
+    font-size: 18px;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: 2px 17px;
+    width: 87%;
+    font-weight: bold;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+#one:hover{
+    background: blue;
+}
+#tow:hover{
+    background: blue;
+}
+.frist_paragraph{
+    margin: 0px 20px;
+    background: rgba(255,255,255,.2);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    text-align: center;
+    align-items: center;
+   transition: 1s;
+
+}
+.frist_paragraph:hover{
+      padding: 10px 10px;
+    background: rgba(255,255,255);
+}
+.scoaned_paragraph{
+    margin: 0px 0px 0px 20px;
+    background: rgba(255,255,255,.2);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+
+}
+.scoaned_paragraph:hover{
+    padding: 10px 10px;
+  background: rgba(255,255,255);
+}
+.threeth_paragraph{
+    background: rgba(255,255,255,.2);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px;
+    transition: 1s;
+
+}
+.threeth_paragraph:hover{
+    padding: 10px 10px;
+  background: rgba(255,255,255);
+}
+.rowtowtext{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0px;
+    padding: 15px 3px;
+    border-radius: 20px;
+    border: 5px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px blue;
+
+}

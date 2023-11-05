@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+ 
+ 
+    min-height: 100vh;
+    background:url("../image/img.jpg") no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    transition-duration:  50s;
+}
+ 
+.allpage{
+    
+    
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    right: 30%;
+    box-shadow: 0 0 10px black;
+}
+.rowtop{
+    background:none ;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px  0 20px 25% ;
+  
+}
+.rowtop .home{
+    
+width:25%;
+color: #fff;
+text-decoration: none;
+text-align: center;
+padding-top: 10px;
+height: 40px;
+    border: 3px solid rgba(255, 255, 255, .2);
+border-radius: 10px;
+box-shadow: 0 0 20px rgb(2, 18, 201);
+
+}
+.home:hover{
+    background: #eee;
+    color: black;
+    width: 27%;
+}
+.rowtop .newsimge{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    width:25%;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+        border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 20px  rgb(2, 18, 201);
+
+    }
+    .newsimge:hover{
+        background: #eee;
+        color: black;
+        width: 27%;
+    }
+    
+
+.rowtop .newsvideo {
+    margin: 5px; 
+width:25%;
+color: #fff;
+text-decoration: none;
+text-align: center;
+padding-top: 10px;
+height: 40px;
+    border: 3px solid rgba(255, 255, 255, .2);
+border-radius: 10px;
+box-shadow: 0 0 20px rgb(2, 18, 201);
+
+}
+.newsvideo:hover{
+    background: #eee;
+    color: black;
+    width: 27%;
+}
+.rowtop .newstext{
+    margin: 5px;
+width:25%;
+color: #fff;
+text-decoration: none;
+text-align: center;
+padding-top: 10px;
+height: 40px;
+    border: 3px solid rgba(255, 255, 255, .2);
+border-radius: 10px;
+box-shadow: 0 0 20px  rgb(2, 18, 201);
+
+}
+.newstext:hover{
+    background: #eee;
+    color: black;
+    width: 27%;
+}
+.ifremnewsimeg{
+    /* background-color: red; */
+    width: 400px;
+   transform: translateX(-920px);
+}
+.ifremnewsimeg h3{
+    color:black;
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+iframe{
+
+    margin: 10px 0;
+    width: 100%;
+    height: 280px;
+    margin-left: 15px;
+}
+.abu_obeida{
+    position: relative;
+    display: flex;
+    margin-top: -616px;
+    align-items: center;
+    margin-bottom: 20px;
+margin-right: 10px;
+
+
+}
+.abu_obeida p:hover{
+    opacity:0;
+    transition-duration: 3s;
+}
+span{
+    font-size: 15px;
+    color: black;
+    /* display: none;
+  */
+}
+.abu_obeida p{
+    transition-duration:  3s;
+   font-size: 20px;
+   color: rgb(166, 255, 0);
+       
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(100px);
+    font-weight: bold;
+    word-spacing: 5px;
+    border-radius: 20px;
+    width: 526px;
+     
+    margin-right: -400px;
+    margin-top: -5px;
+    padding: 20px;
+
+}
+ 
+/* .abu_obeida p:hover span{
+    display: block;
+    transition: 2s;
+} */
+ .abu_obeida img{
+    border-radius: 40px;
+    border: 3px solid;
+    transition-duration:  3s;
+    width: 43%;
+    height: 80%;
+}
+.abu_obeida img:hover{
+    opacity:0;
+    transition-duration: 3s;
+
+}
+.jerusslem{
+    position: relative;
+    display: flex;
+    margin-top: -16px;
+    align-items: center;
+    transition: 3s;
+}
+.paraubo{
+    box-shadow: 0 0 20px  rgb(2, 18, 201);
+    border: 2px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(20px);
+    font-weight: bold;
+    word-spacing: 5px;
+    border-radius: 20px;
+    width: 526px;
+    margin-right:90px;
+    padding: 20px;
+    background: rgba(255,255,255,.2);
+  
+}
+.parspan{
+    display: none;
+    word-spacing: 10px;
+    line-height: 2px;
+}
+.paraubo:hover span{
+    display: block;
+   
+}
+.jerusslem img{
+    width: 110%;
+    margin: 10px;
+    border-radius: 30px;
+    border: 3px solid;
+    transition: 3s;
+}
+.jerusslem img:hover{
+    width: 120%;
+    margin: 15px;
+    border-radius: 60px;
+    border: 3px solid;
+}
+::selection{
+    color: black;
+    background: yellow;
+}
+
+

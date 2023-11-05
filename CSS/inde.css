@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+   
+    
+    background:url("../image/img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+
+}
+.marqueeon{
+ 
+    padding: 0 20px;
+    
+    margin: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    background: rgb(159, 25, 221);
+    color: white;
+    height: 40px; 
+    border-radius: 20px;
+}
+.wrapper{
+    margin: 10% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1{
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper .inpot_box{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    margin: 30px 0;
+}
+.inpot_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px ;
+    transition: .5s;
+}
+.inpot_box input::placeholder{
+    color: #fff;
+    text-align: center;
+}
+.inpot_box i{
+    position: absolute;
+    left: 20px;
+    top: 25%;
+    transform: translate(-50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+.inpot_box input:hover{
+    width: 110%;
+    height: 110%;
+}
+
+.wrapper .remzember_forgot{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+
+}
+.remzember_forgot label input{
+    accent-color: red;
+    margin-right: 3px;
+
+}
+.remzember_forgot a{
+    color: black;
+    text-decoration: none;
+}
+.remzember_forgot a:hover{
+    text-decoration: underline;
+    color: red;
+    font-size: 16px;
+}
+.wrapper .but{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+.but:hover{
+    background: #757171;
+    height: 55px;
+}
+.wrapper .register_link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+    font-weight: bold;
+}
+.register_link p a{
+    color: black;
+    text-decoration: none;
+}
+.register_link p a:hover {
+    font-size: 18px;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
